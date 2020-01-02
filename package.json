@@ -1,0 +1,27 @@
+{
+  "name": "mini-vue",
+  "version": "1.0.0",
+  "description": "简易版vue",
+  "main": ".eslintrc.js",
+  "directories": {
+    "example": "example"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint": "^4.19.1",
+    "rollup": "^1.27.14",
+    "eslint-config-ttdefault": "^1.0.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xiaochan(1427182960@qq.com)",
+  "license": "ISC"
+}

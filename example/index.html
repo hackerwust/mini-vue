@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            font-size: 20px;
+            margin-bottom: 15px;;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <p>计数器：+ {{ count }}</p>
+        <div>姓名：+ {{ user.name }}</div>
+        <div>年龄：+ {{ user.age }}</div>
+        <div>
+            <span>城市：</span>
+            <input type='text' v-model="user.city" placeholder="填入城市信息" />
+        </div>
+        <div>
+            <span v-if="user.city">city为空时展示展示这句话</span>
+        </div>
+    </div>
+</body>
+<script type='module'>
+    import './index.js';
+</script>
+</html>
