@@ -6,6 +6,10 @@
 [x] v-if directive
 [x] v-model directive
 
+### Demo
+
+![demo](https://github.com/hackerwust/mini-vue/blob/master/example/images/demo.gif?raw=true)
+
 ### 启动
 ```bash
 npm start
