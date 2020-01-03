@@ -10,6 +10,10 @@
             font-size: 20px;
             margin-bottom: 15px;;
         }
+        .city-test {
+            color: red;
+            opacity: 0.7;
+        }
     </style>
 </head>
 <body>
@@ -18,11 +22,11 @@
         <div>姓名：+ {{ user.name }}</div>
         <div>年龄：+ {{ user.age }}</div>
         <div>
-            <span>城市：</span>
+            <h5>城市：+ {{user.city}}</h5>
             <input type='text' v-model="user.city" placeholder="填入城市信息" />
         </div>
         <div>
-            <span v-if="user.city">city为空时展示展示这句话</span>
+            <span class="city-test"v-if="user.city">城市为空时展示展示这句话</span>
         </div>
     </div>
 </body>
